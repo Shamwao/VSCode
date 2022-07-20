@@ -1,0 +1,26 @@
+*{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.nav {
+    width: 1200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.nav-title{
+    margin: 10px;
+}
+.btn{
+    background-color: aqua;
+    box-shadow: 5px 5px black;
+}

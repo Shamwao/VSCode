@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.body {
+    font-family: serif; 
+}
+.top{
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.nav-bar{
+    width: 1080px;
+    height: inherit;
+    padding-left: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.flex-container{
+    width: 1080px;
+    margin: 0 auto;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.col-1{
+    flex: 1;
+    height: 700px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.col-2{
+    flex:2;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.left-box{
+    width: 200px;
+    height: 300px;
+    border: solid 2px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.avatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.user-box{
+    width: 400px;
+    height: 180px;
+    margin-top: 50px;
+    border: solid 2px gray;
+    display: flex;
+    flex-direction: column;
+}
+.row-1{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row-2{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.like-btn {
+    width: 60px;
+    height: 30px;
+    background-color: goldenrod;
+}

@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.top{
+    width: auto;
+    height: 90px;
+    margin: 0 auto;
+    color: white;
+}
+.nav-bar{
+    width: auto;
+    height: inherit;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-title{
+    margin-left: 200px;
+}
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.btn {
+    height: 30px;
+    width: 60px;
+    background: rgb(5, 155, 155);
+    color: white;
+    border: none;
+    box-shadow: 3px 3px white;
+
+}
+.container {
+    width: 1080px;
+    height: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+}
+.column-1, .column-2{
+    margin: 20px;
+    padding: 20px;
+
+}
+.column-1{
+    flex:2;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.column-2 {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.user-box{
+    height: 400px;
+    width: 500px;
+    border: solid 1px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ed-box{
+    height: 250px;
+    width: 500px;
+    border: solid 1px grey;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.ed-body{
+    width: inherit;
+    height: 190px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.user-header{
+    height: 80px;
+    width: inherit;
+    background-color: rgb(5, 155, 155);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.request-header, .friends-header, .ed-header{
+    height: 60px;
+    width: inherit;
+    background-color: black;
+    color: white;
+    font-size: 12pt;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.con-counter, .friend-counter{
+    width: 15%;
+    border: solid 1px black;
+    background-color: gray;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.request-box{
+    height: 300px;
+    width: 300px;
+    border: solid 1px grey;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.request-body {
+    width: inherit;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.request-line{
+    display: flex;
+    align-items: center;
+    font-size: 14pt;
+}
+.icon-line {
+    display: flex;
+    align-items: center;
+}
+.friends-box{
+    height: 400px;
+    width: 300px;
+    border: solid 1px grey;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.friends-body{
+    width: inherit;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.friends-footer{
+    height: 60px;
+    width: inherit;
+    border: solid 1px grey;
+    display: flex;
+    align-items: center;
+}
+.jane {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+.user-name {
+    padding: 20px;
+}
+.map-marker, .gear {
+    height: 20px;
+    margin-left: 20px;
+}
+.dates {
+    color: gray;
+    margin-left: 20px;
+}
+.pics {
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.icon {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+p, h2, h3{
+    margin-left: 20px;
+    font-size: 15pt;
+}
+

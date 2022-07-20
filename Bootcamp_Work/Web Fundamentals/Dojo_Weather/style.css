@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.container {
+    width: auto;
+    height: 1000px;
+    margin: 0 auto;
+}
+.top {
+    width: auto;
+    height: 100px;
+}
+.nav-bar{
+    margin: 0 auto;
+    width: auto;
+    height: inherit;
+    background-color: skyblue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-links {
+    width: 35%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.header{
+    margin: 0 auto;
+    width: 1080px;
+    height: 100px;
+    border-bottom: solid 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.temp-select{
+    width: 20%;
+    font-size: 14pt;
+    display: flex;
+    flex-direction: row;
+}
+.temp-choice{
+    margin-left: 4px;
+}
+.main {
+    margin: 0 auto;
+    width: 1080px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.col{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(232, 237, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.w-icon{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.temps{
+    height: 15%;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cookie-box{
+    margin: 0 auto;
+    width: 1080px;
+    height: 150px;
+    background-color:rgb(232, 237, 238);
+    border: solid 3px black;
+    display: flex;
+    flex-direction: row;
+}
+.c-icon-box{
+    width: 15%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-icon{
+    height: 100px;
+    width: 100px;
+}
+.cookie-time{
+    width: 60%;
+    padding: 10px;
+    height: inherit;
+    font-size: 14pt;
+}
+.btn-box{
+    width: 25%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accept-btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(124, 155, 249);
+}
+.high-temp{
+    font-size: 20pt;
+    color: red;
+}
+.low-temp{
+    font-size: 20pt;
+    color: blue;
+}
+
