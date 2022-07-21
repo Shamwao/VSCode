@@ -3,6 +3,11 @@ function hide(element) {
 }
 function whichPet(element) {
     alert("You are looking for a " + element.value)
+    var isCat = document.getElementById("kitty")
+    if (element.value != isCat) {
+        hide(isCat)
+    }
+    
 }
 var currentPets =[3,5,8]
 var petCount = [
@@ -16,10 +21,10 @@ var petCount = [
     petCount[id].innerText= currentPets[id] + " petting(s)"
 }*/
 
-function addPet(element) {
-    var changeMe = document.querySelector(".pet-count1").innerText
-    var toThis = parseInt(document.querySelector(".pet-count1").innerText)
-    toThis++
-    console.log(toThis)
-    changeMe = toThis + " petting(s)"
+function addPet(id) {
+    var changeMe = document.querySelector(".pet-count" + id).innerHTML
+    var toThis = parseInt(document.querySelector(".pet-count" + id).innerText)
+    console.log(changeMe)
+    toThis ++
+    document.querySelector(".pet-count"+ id).innerText = toThis + " petting(s)"
 }
