@@ -15,6 +15,8 @@
     height: inherit;
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 .main {
     width: inherit;
@@ -25,30 +27,34 @@
 .text-box{
     width: inherit;
     height: 100px;
+
 }
 .black-box {
     width: inherit;
     height: 400px;
+    margin-bottom: 80px;
     display: flex;
     flex-direction: row;
 }
-.col-1 {
+.left-keys {
     width: 350px;
     height: inherit;
     margin-left: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
+    z-index: 2;
 }
-.col-2 {
+.right-keys {
     width: 500px;
     height: inherit;
     margin-left: 120px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
+    z-index: 2;
 }
 .black-keys {
     width: 150px;
@@ -63,6 +69,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 1;
 }
 .white-keys {
     width: 170px;
