@@ -2,7 +2,7 @@
 
 //permutations have the same characters but in a different order
 
-function isPerm(s,t) {
+const isPerm =(s,t) => {
     if (s.length != t.length){
         return false
     }
