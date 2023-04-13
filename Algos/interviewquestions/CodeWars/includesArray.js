@@ -10,7 +10,6 @@ function inArray(array1,array2){
             }
         }
     }
-    let sorted = res.sorted()
-    return sorted
+    return res.sort()
 }
 console.log(inArray(["xyz", "live", "strong"], ['lively', 'alive', 'harp', 'sharp','armstrong']))
