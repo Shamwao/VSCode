@@ -43,6 +43,13 @@ class SLL {
             return this.head.value
         }
     }
+    back(){
+        let runner = this.head
+        while(runner.next){
+            runner = runner.next
+        }
+        return runner.value
+    }
 }
 
 let newSLL = new SLL()
@@ -50,4 +57,4 @@ newSLL.addFront(10)
 newSLL.addFront(5)
 newSLL.addFront(154)
 // newSLL.removeFront()
-console.log(newSLL.display())
+console.log(newSLL.back())
